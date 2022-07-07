@@ -19,65 +19,97 @@
             text-align: center;
         }
 
+        .bg {
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+
         #about {
             text-align: center;
             margin: 1%;
         }
 
-        span {
+        .fimg {
             text-align: center;
-        }
-
-        img {
-            display: block;
             margin-left: auto;
             margin-right: auto;
         }
     </style>
 </head>
 
-    <body>
-        <header>
+<body>
+    <header>
+        <div>
+            <div class="fimg">
+                <img src="side.jpg" alt="my_image" height="200px">
+            </div>
 
-            <img src="side.jpg" alt="my_image" height="200px">
+            <div>
+                <h1>Lavi Kumar</h1>
+            </div>
+            <div>
+                <p id="profile">
+                    <span><i class="fa fa-github"> https://github.com/iamlavi</i></span>
+                    &nbsp;
+                    <span><i class="fa fa-linkedin-square"> linkedin.com/in/lavi-kumar-2a3947241</i></span>
+                    &nbsp;
+                    <span><i class="fa fa-envelope"> codexlavi@gmail.com</i></span>
+                </p>
+            </div>
+        </div>
+    </header>
 
-            <h1>
-                Lavi Kumar
-            </h1>
+    <hr style="border: 3px solid black;">
 
-            <p id="profile">
-                <i class="fa fa-github"> https://github.com/iamlavi/codexlavi.git</i>
-                &nbsp;
-                <i class="fa fa-linkedin-square"> linkedin.com/in/lavi-kumar-2a3947241</i>
-                &nbsp;
-                <span>&#9993; codexlavi@gmail.com</span>
-            </p>
-
-        </header>
-
-        <hr style="border: 2px solid black;">
-
-        <main>
-            <p id="about">
+    <main>
+        <div>
+            <div>
+                <p id="about">
+                <h3 class="bg">About Me</h3>
                 Enthusiastic computer applications graduate from the IIMT engg. college, Meerut.
-                Persuing Certification from edureka. Looking to deliver excellent web development skills
-                in HTML, CSS, JS, node.js, react, mongodb and python. Looking forward to work in a competitive environment
-                that can boost my overall learning.
-            </p>
+                Persuing Fullstack development internship program from edureka. Looking to deliver excellent web
+                development skills in HTML, CSS, JS, node.js, react, mongodb and python. Looking forward to work in a
+                competitive environment that can boost my overall learning.
+                </p>
+            </div>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.208446916075!2d77.42356221109046!3d28.621604122255135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef549c404cdd%3A0xc72e22b90c3c8991!2sMahagun%20Mywoods!5e0!3m2!1sen!2sin!4v1656336523015!5m2!1sen!2sin"
-                width="99%" height="300" style="border:0; margin: 2px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </main>
+            <div class="fimg">
+                <h3 class="bg">Skills</h3>
+                <div id="skills">
+                    <img src="htmlicon.png" alt="html image" margin="10px" height="53px">
+                    <img src="cssicon.png" alt="css icon" margin="10px" height="53px">
+                    <img src="jsicon.png" alt="js icon" margin="10px" height="50px">
+                    <img src="node_js.png" alt="nodejsicon" margin="10px" height="50px">
+                    <img src="react.png" alt="reacticon" margin="10px" height="50px">
+                    <img src="mongodb.png" alt="mongodbicon" margin="10px" height="50px">
+                    <img src="python_icon.png" alt="python_icon" margin="10px" height="50px">
 
-        <hr style="border: 2px solid black;">
+                </div>
+            </div>
 
-        <footer>
-            <p id="profile">
-                &copy; My portfolio.
-            </p>
-        </footer>
-    </body>
+            <div>
+                <h3 class="bg">Map</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.208446916075!2d77.42356221109046!3d28.621604122255135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef549c404cdd%3A0xc72e22b90c3c8991!2sMahagun%20Mywoods!5e0!3m2!1sen!2sin!4v1656336523015!5m2!1sen!2sin"
+                    width="99%" height="300" style="border:0; margin: 2px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+
+
+
+        </div>
+
+    </main>
+
+    <hr style="border: 2px solid black;">
+
+    <footer>
+        <p id="profile">
+            &copy; My portfolio.
+        </p>
+    </footer>
+</body>
 
 </html>
